@@ -1,9 +1,11 @@
 # Langton CS Society Student Sites
 
-| Student      | Directory                          | URL                                             |
-| ------------ | ---------------------------------- | ----------------------------------------------- |
-| Luc Wallace  | [lucwallace](/public/lucwallace)   | [Link](https://langtoncompsci.tech/lucwallace)  |
-| Callum Rynne | [callumrynne](/public/callumrynne) | [Link](https://langtoncompsci.tech/callumrynne) |
+Student websites route to `s.langtoncompsci.tech/{name}`.
+
+| Student      | Directory                          | URL                                               |
+| ------------ | ---------------------------------- | ------------------------------------------------- |
+| Luc Wallace  | [lucwallace](/public/lucwallace)   | [Link](https://s.langtoncompsci.tech/lucwallace)  |
+| Callum Rynne | [callumrynne](/public/callumrynne) | [Link](https://s.langtoncompsci.tech/callumrynne) |
 
 # Tutorial
 
