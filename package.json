@@ -1,0 +1,17 @@
+{
+  "name": "student-sites",
+  "version": "1.0.0",
+  "description": "Langton CS society student-made websites.",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@minify-html/node": "^0.15.0",
+    "ejs": "^3.1.10"
+  }
+}

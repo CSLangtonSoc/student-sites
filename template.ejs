@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="https://langtoncompsci.tech/assets/img/logo-light.png"
+        alt=""
+      />
+      <h1>Langton CS Society Student Sites</h1>
+      <nav>
+        <a href="https://langtoncompsci.tech">Main Site</a>
+        <a href="https://github.com/CSLangtonSoc/student-sites">GitHub Repo</a>
+      </nav>
+    </header>
+    <table>
+      <tr>
+        <th>URL</th>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Description</th>
+      </tr>
+      <% projects.forEach((project) => { %>
+      <tr>
+        <td><% if (project.external) { %>
+          <a href="<%= project.path %>"  target="_blank" rel="noopener noreferrer">(External)</a></td>
+          <% } else { %>
+          <a href="<%= project.path %>"><%= project.path %></a></td>
+          <% }; %>
+        <td><%= project.name %></td>
+        <td><%= project.author %></td>
+        <td class="description"><%= project.description %></td>
+      </tr>
+      <% }); %>
+    </table>
+  </body>
+</html>
