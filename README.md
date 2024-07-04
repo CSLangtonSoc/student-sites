@@ -1,16 +1,26 @@
 # Langton CS Society Student Sites
 
-Student websites route to `s.langtoncompsci.tech/{name}`.
+To see a full list of existing websites, visit https://s.langtoncompsci.tech.
 
-| Student      | Directory                          | URL                                               |
-| ------------ | ---------------------------------- | ------------------------------------------------- |
-| Luc Wallace  | [lucwallace](/public/lucwallace)   | [Link](https://s.langtoncompsci.tech/lucwallace)  |
-| Callum Rynne | [callumrynne](/public/callumrynne) | [Link](https://s.langtoncompsci.tech/callumrynne) |
+Student websites route to `s.langtoncompsci.tech/{directoryname}`.
 
 # Tutorial
 
 To add your website here, create a fork of this repository.
 
-Make a folder inside the [/public](/public) folder with your name and add your website files inside.
+Make a folder inside the [/public](/public) directory with your website files inside.
 
-Create a pull request to the repository and it will be added to the final site.
+Add a `meta.json` file in your folder with the following structure:
+
+```json
+{
+  "name": "Example",
+  "author": "CS Society",
+  "description": "Example student website"
+}
+```
+
+If you want to link an external website without uploading your own files, add a `redirectPath` attribute to your `meta.json`
+file and set the value to the URL of the external site.
+
+Finally, create a pull request to the repository and it will be added to the final site.
