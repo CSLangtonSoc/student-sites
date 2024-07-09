@@ -1,0 +1,42 @@
+h1 {
+  color: rgb(63, 80, 35);
+  text-decoration: underline;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+h2 {
+  color: rgb(20, 94, 58);
+  font-size: 35px;
+}
+h4 {
+  color: rgb(79, 109, 32);
+  font-size: 20px;
+}
+#app {
+  display: none;
+  width: 60%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(194, 221, 188);
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lipidstruc {
+  border: 5px darkolivegreen solid;
+}
+a {
+  color: darkolivegreen;
+}
+h3 {
+  text-decoration: underline;
+  font-size: 25px;
+  color: rgb(13, 32, 3);
+}
+.bold {
+  font-weight: 800;
+}
